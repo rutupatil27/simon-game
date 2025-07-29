@@ -1,22 +1,54 @@
 # 🎮 Simon Game - Mini Project
 
-A simple browser-based Simon Game built using **HTML, CSS, and JavaScript** while learning DOM manipulation and event handling.
-
-## 🧠 What is Simon Game?
-
-Simon is a memory game where the computer shows a sequence of colors, and the user has to repeat the sequence. Each round, one color is added, making it progressively harder. This mini version replicates that logic with simple visual feedback and keyboard/mouse interactions.
+A memory-based browser game built using **HTML, CSS, and JavaScript** that challenges users to repeat an ever-growing sequence of colors.
 
 ---
 
-## ✅ Features
+## 🔗 Live Preview
 
-- Press any key to start the game
-- Random sequence of colored buttons each round
-- Visual feedback:  
-  - White flash for computer's move  
-  - Green flash on correct user input  
-  - Red flash and "Game Over" message on wrong input
-- Fully responsive layout
-- Play again feature on any key after losing
+> 📽️ Watch the demo video here:  
+> `simon_preview.mp4` 
+
+> 💻 Or try it live via GitHub Pages:  
+> [https://rutupatil27.github.io/simon-game](https://rutupatil27.github.io/simon-game)  
 
 ---
+
+## 🕹️ How to Play
+
+- Press **any key** to start the game.
+- Watch the flashing color — remember the sequence!
+- Click the buttons in the same order.
+- If you're right, the game continues to the next level.
+- If you're wrong, the game ends and your **final score** and **high score** are displayed.
+
+---
+
+## 📂 Tech Stack
+
+- **HTML** – Layout and structure
+- **CSS** – Styling, button animations, transitions
+- **JavaScript** – Game logic, event handling, score tracking
+
+---
+
+## ✨ Features
+
+- Color buttons that flash on sequence
+- Visual feedback for correct (green) and wrong (red) input
+- Dynamic level display
+- Final score and high score tracking
+- Game restart prompt after failure
+- Mobile-responsive layout
+- Light hover and scaling effects
+
+---
+
+## 💡 What I Learned
+
+- DOM manipulation with vanilla JavaScript
+- `setTimeout()` and event listeners
+- CSS transitions and hover effects
+- Game loop logic and state management
+- How to handle user input validation and score tracking
+
