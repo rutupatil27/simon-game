@@ -1,0 +1,57 @@
+
+.main{
+    width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.colorbox{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    justify-content: space-evenly;
+}
+
+.colorbox div{
+    height: 150px;
+    width: 150px;
+    border: 0.3rem solid black;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.div1{
+    background-color: rgb(232, 126, 80);
+}
+
+.div2{
+    background-color: rgb(69, 201, 111);
+}
+
+.div3{
+    background-color: rgb(238, 78, 134);
+}
+
+.div4{
+    background-color: rgb(82, 112, 217);
+}
+
+.flash{
+    background-color: white;
+}
+
+.flashgreen{
+    background-color: green;
+}
+
+.flashred{
+    background-color: red;
+}
+
+.newh3{
+    text-align: center;
+    margin: 0;
+}
