@@ -4,6 +4,8 @@ let btns= ['div1','div2','div3','div4'];
 
 let level=0;
 let start= false;
+let finalpoint;
+let best=0;
 
 let h3= document.querySelector('h3');
 document.addEventListener('keypress',()=>{
@@ -42,7 +44,7 @@ function randcolorflash(){
     // console.log(gameseq);
     flash(randbtn);
 }
-
+ 
 function levelup(){
     userseq=[];
     level++;
@@ -71,11 +73,14 @@ function btnpress(){
     }
     else{
         flashred(this);
-        h3.innerText= `Opps! Game Over! Final Points:${level-1}`;
+        finalpoint=level-1;
+        high=finalpoint;
+        h3.innerText= `Opps! Game Over! Final Points:${finalpoint}`;
         let newh3=document.createElement('h4');
         newh3.innerText="Press any key to start again!!";
         newh3.classList.add('newh3');
         h3.append(newh3);
+        bestscore(high);
         reset();
         // console.log("wrong");
     }
@@ -90,4 +95,14 @@ function reset(){
     level=0;
     gameseq=[];
     start=false;
+}
+
+function bestscore(high){
+    if(high>best){
+        best=high;
+    }
+    let highscore=document.createElement('h4');
+    highscore.innerText=`HighScore: ${best}`;
+    highscore.classList.add('newh3');
+    h3.append(highscore);
 }
