@@ -6,8 +6,7 @@ A memory-based browser game built using **HTML, CSS, and JavaScript** that chall
 
 ## 🔗 Live Preview
 
-> 📽️ Watch the demo video here:  
-> `simon_preview.mp4` 
+> 📽️ Demo video available in the repository: `simon_preview.mp4`
 
 > 💻 Or try it live via GitHub Pages:  
 > [https://rutupatil27.github.io/simon-game](https://rutupatil27.github.io/simon-game)  
