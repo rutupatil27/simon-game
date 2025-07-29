@@ -68,7 +68,10 @@ function checkans(){
 function btnpress(){
     userseq.push(this.getAttribute('id'));
     // console.log(userseq);
-    if(checkans()){
+    if(start==false){
+        h3.innerText="Start the game first by pressing any button!!";
+    }
+    else if(checkans()){
         flashgreen(this);
     }
     else{
