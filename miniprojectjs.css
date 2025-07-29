@@ -1,3 +1,6 @@
+body{
+    padding: 2rem;
+}
 
 .main{
     width: 400px;
@@ -24,7 +27,7 @@
 }
 
 .div1{
-    background-color: rgb(232, 126, 80);
+    background-color: rgba(232, 126, 80);
 }
 
 .div2{
@@ -54,4 +57,13 @@
 .newh3{
     text-align: center;
     margin: 0;
+}
+
+.btn{
+    transition: 2s ease 0;
+}
+
+.btn:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.684);
 }
